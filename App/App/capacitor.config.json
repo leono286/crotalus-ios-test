@@ -1,0 +1,23 @@
+{
+  "appId": "boa.project.crotalus",
+  "appName": "Crotalus",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "plugins": {
+    "SplashScreen": {
+      "launchAutoHide": false,
+      "androidScaleType": "CENTER",
+      "splashFullScreen": true,
+      "splashImmersive": true
+    }
+  },
+  "cordova": {
+    "StatusBarOverlaysWebView": "false",
+    "ScrollEnabled": "false",
+    "android-minSdkVersion": "23",
+    "BackupWebStorage": "none",
+    "AndroidPersistentFileLocation": "Internal",
+    "iosPersistentFileLocation": "Library"
+  }
+}
